@@ -1,189 +1,107 @@
 let Coche = {
-    marca:"",
-    modelo:"",
-    matricula:"",
+    marca: "",
+    modelo: "",
+    matricula: "",
 }
-
 
 let Casa = {
-    codPostal:"",
-    calle:"",
-    portal:"",
-    piso:"",
+    codPostal: "",
+    calle: "",
+    portal: "",
+    piso: "",
 }
 
-
 let FullStackDeveloper = {
-    lenguajes:[],
+    lenguajes: [],
     proyectos: [],
 }
 
-
 let Perro = {
-    nombre :"",
+    nombre: "",
     raza: "",
-    color:"",
-    edad:"",
-    ladrar : function() {
+    color: "",
+    edad: "",
+    ladrar: function () {
         console.log("");
     },
     popo: function () {
-        return Math.random()*3;
+        return Math.random() * 3;
     }
 }
 
-/*let Portatil ={
-    marca:"",
-};
-let marcaPortatil= Portatil.marca;
+let marcaPortatil = Portatil.marca;
 
+let marcaPortatil2 = Portatil["marca"];
 
-let Portatil2 =[
-    {marca:"Linux"}
-]
-let marcaPortatil2= Portatil2[0].marca;
+let grupos = Concierto.grupos;
 
+let RGB = [Led.rojo, Led.verde, Led.azul];
 
-let concierto = [
-    {grupos:""},
-]
-let grupos= concierto[0].grupos;
-
-
-
-let Led =[
-    {rojo,verde,azul},
-]
-let Rgb= [rojo,verde,azul];
-
-
-let Portatil3 ={
-    modelo:"Alfa",
-    marca:"Lg",
-    color:"gris",
-    pulgadas:"9",
+Impresora.imprimiendo = {
+    nombreArchivo: "",
+    copias: "",
+    numPaginas: "",
 }
-Portatil.modelo= "P354";
 
+Portatil.modelo = "P345";
 
-let Concierto1= {
-    fecha:"diciembre",
-    localización:"pabellón sur",
-}
-Concierto.fecha= newDate("25 de septiembre");*/
+Concierto.cartelera.push("Guns N' Roses");
 
+Concierto.fecha = new Date();
 
 let Noticia = {
-    titular:"",
-    cuerpo:"",
+    titular: "",
+    cuerpo: "",
 }
 
-
-
-let Persona= {
-    nombre:"",
-    apellidos:"",
-    edad :"edad",
+let Persona = {
+    nombre: "",
+    apellidos: "",
+    edad: "edad",
 }
 
+let Pais = {
+    numHabitantes: "",
+    continente: "",
+    gentilicio: "",
+}
 
-
-let Avion= {
-    numPasajeros:"",
-    despegar: function() {
-        console.log("Despegando");
+let Avion = {
+    numPasajeros: "",
+    despegar: function () {
+        console.log("despegando");
     },
-    volar: function() {
-        console.log("Llegando al destino");
+    volar: function () {
+        console.log("llegando al destino");
     },
-    aterrizar: function() {
-        console.log("Aterrizando");
+    aterrizar: function () {
+        console.log("aterrizando");
     },
 }
 
+let Paquete = {
+    contenido: [{}, {}]
+};
 
-let Paquete= [
-    {color: "marrón"},
-    {tamaño:"mediano"},
-    {forma:"cuadrada"}
-]
+let codError = O_Error.codigo;
 
+let integrantes = Grupo.integrantes;
 
-let Pais= {
-    numHabitantes:"",
-    continente:"",
-    gentilicio:"",
-}
+let nivelesTinta = Impresora.tinta;
 
+let pixeles = Pantalla.pixeles;
 
+let especificaciones = Movil["especificaciones"];
 
+Grupo.numIntegrantes = 5;
 
-/*let Grupo ={
-    numIntegrantes:"8",
-    nacionalidad:"española",
- }
- Grupo.numIntegrantes= "5";
+Pantalla.dimensiones = "1920x1080";
 
+Led.encendido = !Led.encendido;
 
-
-
- let Pantalla ={
-    dimensiones:"300x400",
-    color:"azul",
- }
- Pantalla.dimensiones="1920x1080";
-
-
-
-
- let led ={
-    encendido:"true",
- }
- led.encendido="false";
-
-
-
-
- let Movil={
-    temperatura:"80º",
-    color:"gris",
- }
- Movil.temperatura= "20º";
-
-
-let O_Error= {
-    codigo: "",
-}
-let codError= O_Error.codigo;
+Movil.temperatura = "20º";
 
 
 
 
 
-let Grupo = [
-    {integrantes:"6",nacionalidad:"francesa"},
-]
-let integrantes= Grupo[0].integrantes;
-
-
-
-let Impresora = [
-    {tinta1:"rojo",tinta2:"verde",tinta3:"azul"},
-]
-let nivelesTinta= Impresora[0].tinta;
-
-
-
-let Pantalla =[
-    {tamaño:"568x379",pixeles:"14"},
-]
-let pixeles= Pantalla[1].pixeles;
-
-
-
-
-
-let Movil =[
-    {modelo:"samsung",especificaciones:"waterproof",tamaño:"30x70"},
-]
-let especificaciones= Movil[1].especificaciones;*/
